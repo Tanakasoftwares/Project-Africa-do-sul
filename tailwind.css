@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #1c86ee;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-gray-600 {
+    color: #666;
+}
+
+.text-blue-600 {
+    color: #1e90ff;
+}
+
+.text-red-600 {
+    color: #ff0000;
+}
+
+.shadow-lg {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+.rounded-md {
+    border-radius: 5px;
+}
+
+.dark {
+    background-color: #2d2d2d;
+    color: #ccc;
+}
+
+.dark .text-gray-400 {
+    color: #aaa;
+}
+
+.dark .text-white {
+    color: #fff;
+}
+
+.dark .border-gray-700 {
+    border-color: #444;
+}
+
+.dark .bg-gray-800 {
+    background-color: #333;
+}
+
+.dark .hover\:text-gray-200:hover {
+    color: #ddd;
+}
+
+.dark .hover\:text-blue-600:hover {
+    color: #1e90ff;
+}
+
+@media (max-width: 600px) {
+    #content {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+    }
+}
